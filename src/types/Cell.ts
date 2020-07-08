@@ -15,4 +15,4 @@ export enum CellState {
     revealed = "revealed",
     flagged = "flagged"
 }
-export type Cell = { value: CellValue, state: CellState };
+export type Cell = { value: CellValue, state: CellState; red?: boolean };

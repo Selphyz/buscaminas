@@ -1,0 +1,11 @@
+commit 0345757fc2d7eaee3dc48359bb5fa787cd9b5140
+Author: Carlos Dominguez Puig <carlos.dom13@hotmail.com>
+Date:   Tue Jul 7 04:50:06 2020 +0200
+
+    falta la reaccion en cadena de varias casillas vacias y el game over
+
+commit 6e37d26fb96feab552b2f5885566d9a073c49471
+Author: Carlos Dominguez Puig <carlos.dom13@hotmail.com>
+Date:   Sun Jul 5 22:49:28 2020 +0200
+
+    Initialize project using Create React App

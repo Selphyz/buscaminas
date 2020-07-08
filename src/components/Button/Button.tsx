@@ -6,13 +6,14 @@ import { CellState, CellValue } from "../../types/Cell";
 interface ButtonProps {
     row: number;
     col: number;
+    red?: boolean;
     state: CellState;
     value: CellValue;
     onClick(row: number, col: number): (...args: any[]) => void;
     onContext(row: number, col: number): (...args: any[]) => void;
 }
 
-export const Button: React.FC<ButtonProps> = ({ row, col, onClick, onContext, state, value }) => {
+export const Button: React.FC<ButtonProps> = ({ row, col, red, onClick, onContext, state, value }) => {
     const renderContent = (): React.ReactNode => {
         if (state === CellState.revealed) {
             if (value === CellValue.bomb) {
@@ -27,6 +28,7 @@ export const Button: React.FC<ButtonProps> = ({ row, col, onClick, onContext, st
             );
         }
     }
-    return (<div className={`Button ${state === CellState.untouched ? "untouched" : ""} value-${value}`}
+    return (<div className={`Button ${state === CellState.untouched ? "untouched" : ""} 
+        value-${value} ${red ? "red" : ""}`}
         onClick={onClick(row, col)} onContextMenu={onContext(row, col)}>{renderContent()}</div>)
 }

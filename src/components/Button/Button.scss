@@ -8,6 +8,12 @@
     justify-content: center;
     align-items: center;
     font-weight: bold;
+    span{
+        font-size: 12px;
+    }
+    &.red{
+        background-color: red;
+    }
     &.revealed{
         border-color: #7b7b7b;
         border-width: 1px;

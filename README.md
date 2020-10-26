@@ -1,5 +1,5 @@
 ## Proyecto de buscaminas 
-<p align="center">Proyecto hosteado en la siguiente direccion de Netlify</br><a href="https://elastic-knuth-134ca1.netlify.app/" target="_blank" rel="noopener noreferrer">https://buscaminastypescript.netlify.app/</a></br></p>
+<p align="center">Proyecto hosteado en la siguiente direccion de Netlify</br><a href="https://buscaminastypescript.netlify.app/" target="_blank" rel="noopener noreferrer">https://buscaminastypescript.netlify.app/</a></br></p>
 
 ### 
 ![Foto buscaminas](foto.png)
